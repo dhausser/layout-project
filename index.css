@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font: 1em sans-serif;
+}
+
+.layout {
+  margin: 6rem auto;
+  max-width: 800px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: aquamarine;
+  opacity: 50%;
+  text-align: center;
+}
+
+.main {
+  margin-top: 0;
+}
+
+p {
+  margin: 50px 0;
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 184.69%;
+  letter-spacing: 0.03em;
+}
+
+a {
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+}
+
+a:hover {
+  border-bottom: 2px solid black;
+}
